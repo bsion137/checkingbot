@@ -22,5 +22,5 @@ async def on_message(message):
     await message.channel.send(f"{message.author.mention} 님의 출석체크가 완료되었습니다")
 
 
-access_token = os.environ["BOT_TOKEN"] 
+access_token = os.environ['BOT_TOKEN'] 
 client.run('Nzk0NTE2OTUyMjMxMDUxMjc0.X-79kg.fk7efxw8tZSLAxZ_kxANCApi_Mc')
